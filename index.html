@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teaching Programming Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href = "/style.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                    <a href="https://github.com/jhang4">Github</a>
+                </nav>
+                <h1>
+                        Jennifer Hang's Teaching Programming Portfolio
+                </h1>
+            </header>
+            <hr>
+        </main>
+        <script>
+            const canvas = document.querySelector('canvas');
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#9999ff';
+            ctx.fillRect(0, 0, 200, 300);
+            function openPic() {
+                var pic = document.getElementsByTagName("template")[0];
+                var dup = pic.content.cloneNode(true);
+                document.body.appendChild(dup);
+            }
+        </script>
+    </body>
+</html>
